@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<script>
+ 
+</script>
+</head>
+<body>
+<fieldset>
+<h1> Memeber of my group </h1> 
+<span id="x" ><span> 
+</fieldset>
+<script>
+  var arr = ["john","steve","ben","damon","ian"];
+  var y = "<ol>";
+  for( element of arr) {
+    y+="<li>"+element.toUpperCase() +"</li>";  
+	}
+	y +="</ol>"
+	document.getElementById("x").innerHTML=y;
+</script>
+</body>
+</html>
