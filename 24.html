@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<style>
+.a { align:center; }
+</style>
+<script>
+ 
+function f1()  {
+ var x = parseInt(document.getElementById("x").value);
+  var y = parseInt(document.getElementById("y").value);
+  var z = parseInt(document.getElementById("z").value);
+for ( var i=x ; i<=y ; i++)
+
+document.getElementById("t1").innerHTML += z+" times "+i+"="+z*i +"\n"; 
+  }
+
+</script>
+</head>
+<body width="50%" >
+<fieldset width="50%">
+<form>
+Start Number: <input name="x" id="x"> 
+End Number: <input name="y" id="y">
+Multiply By : <input width="25%" id="z"> <p>
+ <input type="button" id ="a" value="Times Table" onclick="f1()"> <p>
+ <input Type="reset" id="a" value="Reset"> <p>
+ <textarea rows="10" cols="100" id="t1"> </textarea>
+</fieldset>
+</form>
+
+<script>
+
+</script>
+</body>
+</html>
